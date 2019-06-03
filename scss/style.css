@@ -1,0 +1,137 @@
+.my-danger,
+.my-success {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.my-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.my-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.loop-1 {
+    width: 60px;
+    height: 60px;
+}
+
+.loop-2 {
+    width: 120px;
+    height: 120px;
+}
+
+.loop-3 {
+    width: 180px;
+    height: 180px;
+}
+
+.loop-4 {
+    width: 240px;
+    height: 240px;
+}
+
+.col-lg-1 {
+    width: 8.3333333333%;
+}
+
+.col-lg-2 {
+    width: 16.6666666667%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.3333333333%;
+}
+
+.col-lg-5 {
+    width: 41.6666666667%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-7 {
+    width: 58.3333333333%;
+}
+
+.col-lg-8 {
+    width: 66.6666666667%;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-10 {
+    width: 83.3333333333%;
+}
+
+.col-lg-11 {
+    width: 91.6666666667%;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+header {
+    padding: 10px 0;
+}
+
+header img {
+    width: 100%;
+}
+
+header .menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: #d8c3a5;
+}
+
+header .menu ul li a:hover {
+    color: #8e8d8a;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+header .menu ul li::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 4px;
+    border: 2px solid #e98074;
+    border-radius: 10px;
+}
+
+header .menu ul li:hover::after {
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/*# sourceMappingURL=style.css.map */

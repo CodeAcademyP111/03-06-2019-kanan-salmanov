@@ -1,0 +1,19 @@
+%alert {
+    width: 100%;
+    padding: $padding*1.5;
+    border-radius: $border-radius;
+    font-family: $font-stack;
+    font-size: $font-size/4*3;
+}
+
+.my-danger {
+    @extend %alert;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.my-success {
+    @extend %alert;
+    background-color: #d4edda;
+    color: #155724;
+}

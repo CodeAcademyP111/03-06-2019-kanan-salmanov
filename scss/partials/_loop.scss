@@ -1,0 +1,14 @@
+$class-slug: loop !default;
+@for $i from 1 through 4 {
+    .#{$class-slug}-#{$i} {
+        width: 60px * $i;
+        height: 60px * $i;
+    }
+}
+
+$class-col: col-lg !default;
+@for $i from 1 through 12 {
+    .#{$class-col}-#{$i} {
+        width: 100% /12 * $i;
+    }
+}
