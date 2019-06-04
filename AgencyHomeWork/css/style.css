@@ -1,0 +1,155 @@
+* {
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+body header {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+}
+
+body header .letter {
+  text-align: center;
+  padding: 140px;
+}
+
+body header .letter .letter1 {
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+}
+
+body header .letter .letter2 {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+body header .letter .but {
+  font-size: 18px;
+  border-color: #fed136;
+  padding: 16px 50px;
+  background-color: #fed136;
+  border-radius: 5px;
+}
+
+body header .letter .but a {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+body header .letter .but a:hover {
+  text-decoration: none;
+}
+
+body header .letter .but:hover {
+  background-color: #fec810;
+  border-color: #fec810;
+}
+
+body nav {
+  padding: 25px;
+  background-color: transparent;
+}
+
+body nav .name a {
+  color: #fed136;
+  font-family: 'Kaushan Script';
+  font-size: 28px;
+}
+
+body nav .name:hover a {
+  text-decoration: none;
+}
+
+body nav ul {
+  float: right;
+  line-height: 50px;
+}
+
+body nav ul li {
+  display: inline-block;
+  font-size: 90%;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+body nav ul li a {
+  color: white;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+}
+
+body nav ul li a:hover {
+  color: #fed136;
+  text-decoration: none;
+}
+
+body .services {
+  padding: 100px 0;
+}
+
+body .services i {
+  color: white;
+  background-color: #fed136;
+  border: none;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  line-height: 120px !important;
+  text-align: center;
+  font-size: 60px;
+}
+
+body .services .serviceRow {
+  padding-top: 80px;
+}
+
+body .services p,
+body .services h4 {
+  padding-top: 20px;
+}
+
+body .head {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+body .portfolio {
+  background-color: #e0dfdf;
+  padding: 80px 0;
+}
+
+body .portfolio .mydiv {
+  width: 100%;
+  position: relative;
+}
+
+body .portfolio .mydiv .cover {
+  position: absolute;
+  background-color: #fed136;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+}
+
+body .portfolio .mydiv .cover:hover {
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #fec61098;
+}
+/*# sourceMappingURL=style.css.map */
